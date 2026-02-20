@@ -1,0 +1,35 @@
+/* Center everything using Flexbox */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: #f4f4f9;
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+    border: 2px solid #333;
+    border-radius: 10px;
+    background: rgb(255, 253, 253);
+}
+
+/* Button with Transition Animation */
+button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    background-color: #38473c;
+    color: white;
+    border: none;
+    border-radius: 5rem;
+    transition: transform 0.3s ease, background-color 0.3s ease; /* Animation */
+}
+
+button:hover {
+    background-color: #218838;
+    transform: scale(1.1); /* Slightly grows when hovered */
+}
